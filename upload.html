@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="Images/logo.PNG" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/upload.css" />
+    <title>رفع ملف</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Ham Bar -->
+      <div class="Header">
+        <nav>
+          <div class="hambar">
+            <img class="line" src="Images/HamBar.png" alt="Ham" />
+          </div>
+          <ul class="nav-links">
+            <a href="Class.html"><li class="single-link">صفوفي</li></a>
+            <a href="Calculator.html"
+              ><li class="single-link">حاسبة الدرجات</li></a
+            >
+            <a href="Calendar.html"
+              ><li class="single-link">رزنامة المعلم</li></a
+            >
+            <a href="Sites.html"
+              ><li class="single-link">مواقع مفيدة للمعلم</li></a
+            >
+            <a href="upload.html"><li class="single-link">رفع ملف</li></a>
+          </ul>
+          <a href="Home.html">
+            <img src="Images/logo.png" alt="" class="logo"
+          /></a>
+        </nav>
+      </div>
+
+      <!-- --- -->
+      <!-- topnav -->
+      <div class="topnav">
+        <a href="Home.html" class="NavA"> الصفحة الرئيسية</a>
+        <a href="Subjects.html" class="NavA"> المواد الدراسية</a>
+        <a href="teachers.html" class="NavA"> المعلمين</a>
+        <a href="Active.html" class="NavA"> المتفاعلين</a>
+        <a href="Sign in.html" class="sign">تسجيل الدخول</a>
+        <form action="" class="S-FORM">
+          <input type="search" />
+          <i class="fa fa-search"></i>
+        </form>
+      </div>
+      <!-- --- -->
+      <h1 class="tittle">رفع الملفات</h1>
+      <div class="upload-area" data-aos="fade">
+        <div class="single-area" id="custom-button">
+          <span
+            class="fa-stack fa-3x"
+            style="color: #d1af42; padding-top: 20px;"
+          >
+            <i class="fa fa-file-text fa-stack-2x"></i>
+          </span>
+          <br />
+          <br />
+
+          <h5>رفع ورقة عمل</h5>
+        </div>
+        <div class="single-area" id="custom-button2">
+          <span
+            class="fa-stack fa-3x"
+            style="color: #d1af42; padding-top: 20px;"
+          >
+            <i class="fa fa-question fa-stack-2x"></i>
+          </span>
+          <br />
+          <br />
+
+          <h5>رفع بنك أسئلة</h5>
+        </div>
+        <div class="single-area" id="custom-button3">
+          <span
+            class="fa-stack fa-3x"
+            style="color: #d1af42; padding-top: 20px;"
+          >
+            <i class="fa fa-file-powerpoint-o fa-stack-2x"></i>
+          </span>
+          <br />
+          <br />
+
+          <h5>رفع عرض تقديمي</h5>
+        </div>
+        <div class="single-area" id="custom-button4">
+          <span
+            class="fa-stack fa-3x"
+            style="color: #d1af42; padding-top: 20px;"
+          >
+            <i class="fa fa-file fa-stack-2x"></i>
+          </span>
+          <br />
+          <br />
+
+          <h5>رفع نموذج</h5>
+        </div>
+      </div>
+      <input type="file" id="real-file" hidden="hidden" />
+      <input type="file" id="real-file2" hidden="hidden" />
+      <input type="file" id="real-file3" hidden="hidden" />
+      <input type="file" id="real-file4" hidden="hidden" />
+      <h3 id="custom-text" data-aos="fade">لم يتم اختيار ملف</h3>
+      <!-- --- -->
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <!-- footer -->
+      <img class="upload" src="Images/cross.png" onclick="goBack()" alt="" />
+      <footer class="footer1">
+        <div class="foot">
+          <div class="social-media">
+            <div class="single-media">
+              <a href="https://github.com/Mbuzlouf" target="_blank">
+                <img src="Images/github.png" width="70px" alt="" />
+              </a>
+            </div>
+            <div class="single-media">
+              <a href="https://twitter.com/Mbuzlouf" target="_blank">
+                <img src="Images/twitter.png" width="95px" alt="" />
+              </a>
+            </div>
+            <div class="single-media">
+              <a href="https://www.instagram.com/mbuzlouf/" target="_blank">
+                <img src="Images/instagram.png" width="80px" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="foot">
+            <div class="pages">
+              <a href="Active.html"><p>المتفاعلين</p></a>
+              <a href="teachers.html"><p>المعلمين</p></a>
+              <a href="Subjects.html"> <p>المواد الدراسية</p></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <footer class="footer">
+        <p>
+          حقوق الطبع والنشر &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          ، قَلَم
+        </p>
+      </footer>
+    </div>
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+    <script src="js/upload.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 100, duration: 650 });
+    </script>
+  </body>
+</html>

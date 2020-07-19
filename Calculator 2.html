@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="Images/logo.PNG" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>موضي البناي</title>
+    <link rel="stylesheet" href="css/Calculator.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Ham Bar -->
+      <div class="Header">
+        <nav>
+          <div class="hambar">
+            <img class="line" src="Images/HamBar.png" alt="Ham" />
+          </div>
+          <ul class="nav-links">
+            <a href="Classes.html"><li class="single-link">صفوفي</li></a>
+            <a href="Calculator.html"
+              ><li class="single-link">حاسبة الدرجات</li></a
+            >
+            <a href="Calendar.html"
+              ><li class="single-link">رزنامة المعلم</li></a
+            >
+            <a href="Sites.html"
+              ><li class="single-link">مواقع مفيدة للمعلم</li></a
+            >
+            <a href="upload.html"><li class="single-link">رفع ملف</li></a>
+          </ul>
+          <a href="Home.html">
+            <img src="Images/logo.png" alt="" class="logo"
+          /></a>
+        </nav>
+      </div>
+
+      <!-- --- -->
+      <!-- topnav -->
+      <div class="topnav">
+        <a href="Home.html" class="NavA"> الصفحة الرئيسية</a>
+        <a href="Subjects.html" class="NavA"> المواد الدراسية</a>
+        <a href="teachers.html" class="NavA"> المعلمين</a>
+        <a href="Active.html" class="NavA"> المتفاعلين</a>
+        <a href="Sign in.html" class="sign">تسجيل الدخول</a>
+        <form action="" class="S-FORM">
+          <input type="search" />
+          <i class="fa fa-search"></i>
+        </form>
+      </div>
+      <!-- --- -->
+      <h1 style="text-align: center; margin-bottom: 20px; color: #0b2239;">
+        حاسبة الدرجات
+      </h1>
+      <form action="Student.html">
+        <table id="marks">
+          <tr>
+            <th colspan="2">
+              الأسابيع الست الأولى
+            </th>
+          </tr>
+          <tr>
+            <th>
+              التصنيف
+            </th>
+            <th>
+              الدرجة
+            </th>
+          </tr>
+          <tr>
+            <th style="background-color: #ddd; color: #0b2239;">
+              الشفوي
+            </th>
+            <td>
+              <input
+                type="number"
+                min="0"
+                max="1"
+                placeholder="أدخل الدرجة من 1"
+                id="oral1"
+              />
+            </td>
+          </tr>
+          <tr>
+            <th style="background-color: #ddd; color: #0b2239;">
+              الأعمال التحريرية
+            </th>
+            <td>
+              <input
+                type="number"
+                min="0"
+                max="2"
+                placeholder="أدخل الدرجة من 2"
+                id="hand1"
+              />
+            </td>
+          </tr>
+          <tr>
+            <th style="background-color: #ddd; color: #0b2239;">
+              ورقة تقويمية
+            </th>
+            <td>
+              <input
+                type="number"
+                min="0"
+                max="1"
+                placeholder="أدخل الدرجة من 1"
+                id="exam1"
+              />
+            </td>
+          </tr>
+          <tr>
+            <th style="background-color: #ddd; color: #0b2239;">
+              الامتحان القصير
+            </th>
+            <td>
+              <input
+                type="number"
+                min="0"
+                max="4"
+                placeholder="أدخل الدرجة من 4"
+                id="exam2"
+              />
+            </td>
+          </tr>
+          <tr>
+            <th colspan="2">
+              الأسابيع المتبقية
+            </th>
+          </tr>
+
+          <tr>
+            <th style="background-color: #ddd; color: #0b2239;">
+              الشفوي
+            </th>
+            <td>
+              <input
+                type="number"
+                min="0"
+                max="1"
+                placeholder="أدخل الدرجة من 1"
+                id="oral2"
+              />
+            </td>
+          </tr>
+          <tr>
+            <th style="background-color: #ddd; color: #0b2239;">
+              الأعمال التحريرية
+            </th>
+            <td>
+              <input
+                type="number"
+                min="0"
+                max="2"
+                placeholder="أدخل الدرجة من 2"
+                id="hand2"
+              />
+            </td>
+          </tr>
+          <tr>
+            <th style="background-color: #ddd; color: #0b2239;">
+              عرض تقديمي
+            </th>
+            <td>
+              <input
+                type="number"
+                min="0"
+                max="1"
+                placeholder="أدخل الدرجة من 1"
+                id="presen1"
+              />
+            </td>
+          </tr>
+          <tr>
+            <th colspan="2">
+              الامتحان
+            </th>
+          </tr>
+          <tr>
+            <th style="background-color: #ddd; color: #0b2239;">
+              الامتحان العملي
+            </th>
+            <td>
+              <input
+                type="number"
+                min="0"
+                max="3"
+                placeholder="أدخل الدرجة من 3"
+                id="exam3"
+              />
+            </td>
+          </tr>
+          <tr>
+            <th style="background-color: #ddd; color: #0b2239;">
+              الامتحان التحريري
+            </th>
+            <td>
+              <input
+                type="number"
+                min="0"
+                max="25"
+                placeholder="أدخل الدرجة من 25"
+                id="exam4"
+              />
+            </td>
+          </tr>
+        </table>
+        <input
+          type="submit"
+          class="sub"
+          onclick="calc()  "
+          value="احسب"
+          style="margin-right: 880px; margin-top: 40px;"
+        />
+      </form>
+
+      <!-- --- -->
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <!-- footer -->
+      <a href="upload.html"
+        ><img class="upload" src="Images/Upload.png" alt=""
+      /></a>
+      <footer class="footer1">
+        <div class="foot">
+          <div class="social-media">
+            <div class="single-media">
+              <a href="https://github.com/Mbuzlouf" target="_blank">
+                <img src="Images/github.png" width="70px" alt="" />
+              </a>
+            </div>
+            <div class="single-media">
+              <a href="https://twitter.com/Mbuzlouf" target="_blank">
+                <img src="Images/twitter.png" width="95px" alt="" />
+              </a>
+            </div>
+            <div class="single-media">
+              <a href="https://www.instagram.com/mbuzlouf/" target="_blank">
+                <img src="Images/instagram.png" width="80px" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="foot">
+            <div class="pages">
+              <a href="Active.html"><p>المتفاعلين</p></a>
+              <a href="teachers.html"><p>المعلمين</p></a>
+              <a href="Subjects.html"> <p>المواد الدراسية</p></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <footer class="footer">
+        <p>
+          حقوق الطبع والنشر &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          ، قَلَم
+        </p>
+      </footer>
+    </div>
+    <!-- --- -->
+    <script src="js/Calculator 2.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 100, duration: 650 });
+    </script>
+  </body>
+</html>
