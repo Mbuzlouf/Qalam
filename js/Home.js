@@ -1,3 +1,7 @@
+window.addEventListener("load", () => {
+  const preload = document.querySelector(".preload");
+  preload.classList.add("preload-finish");
+});
 // Ham Bar
 const hambar = document.querySelector(".hambar");
 const navLinks = document.querySelector(".nav-links");
@@ -47,8 +51,4 @@ hambar.addEventListener("click", () => {
 
 // ---
 
-window.addEventListener("load", () => {
-  const preload = document.querySelector(".preload");
-  preload.classList.add("preload-finish");
-});
 document.getElementById("name2").innerHTML = localStorage.getItem("textvalue");

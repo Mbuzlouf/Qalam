@@ -1,3 +1,7 @@
+window.addEventListener("load", () => {
+  const preload = document.querySelector(".preload");
+  preload.classList.add("preload-finish");
+});
 // Ham Bar
 const hambar = document.querySelector(".hambar");
 const navLinks = document.querySelector(".nav-links");
@@ -10,10 +14,7 @@ hambar.addEventListener("click", () => {
   });
 });
 // ---
-window.addEventListener("load", () => {
-  const preload = document.querySelector(".preload");
-  preload.classList.add("preload-finish");
-});
+
 function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
