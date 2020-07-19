@@ -24,3 +24,7 @@ document.getElementById("presen10").innerHTML = localStorage.getItem(
 );
 document.getElementById("exam30").innerHTML = localStorage.getItem("exam30");
 document.getElementById("exam40").innerHTML = localStorage.getItem("exam40");
+window.addEventListener("load", () => {
+  const preload = document.querySelector(".preload");
+  preload.classList.add("preload-finish");
+});

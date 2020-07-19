@@ -22,3 +22,7 @@ document.getElementById("hand2").innerHTML = localStorage.getItem("hand2");
 document.getElementById("presen1").innerHTML = localStorage.getItem("presen1");
 document.getElementById("exam3").innerHTML = localStorage.getItem("exam3");
 document.getElementById("exam4").innerHTML = localStorage.getItem("exam4");
+window.addEventListener("load", () => {
+  const preload = document.querySelector(".preload");
+  preload.classList.add("preload-finish");
+});

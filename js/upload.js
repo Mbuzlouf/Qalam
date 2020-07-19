@@ -71,3 +71,7 @@ realFileBtn.addEventListener("change", function () {
     customTxt.innerHTML = "لم يتم اختيار ملف";
   }
 });
+window.addEventListener("load", () => {
+  const preload = document.querySelector(".preload");
+  preload.classList.add("preload-finish");
+});
