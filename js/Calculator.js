@@ -24,7 +24,3 @@ function calc() {
     parseInt(document.getElementById("exam4").value);
   document.getElementById("total2").innerHTML = all += parseInt(total);
 }
-window.addEventListener("load", () => {
-  const preload = document.querySelector(".preload");
-  preload.classList.add("preload-finish");
-});
