@@ -15,3 +15,10 @@ hambar.addEventListener("click", () => {
 //   return false;
 // }
 // // ---
+function check() {
+  let p1 = document.getElementById("pass1").value;
+  let p2 = document.getElementById("pass2").value;
+  if (p1 !== p2 || (p1 == "" && p2 == "")) {
+    alert("اااا");
+  }
+}
