@@ -44,9 +44,11 @@ hambar.addEventListener("click", () => {
 // ---
 
 // passname
-document.getElementById("name2").innerHTML = localStorage.getItem("textvalue");
+
 // ---
 window.addEventListener("load", () => {
   const preload = document.querySelector(".preload");
   preload.classList.add("preload-finish");
 });
+
+document.getElementById("name2").innerHTML = localStorage.getItem("textvalue");
