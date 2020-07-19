@@ -8,6 +8,10 @@ hambar.addEventListener("click", () => {
     link.classList.toggle("fade");
   });
 });
+window.addEventListener("load", () => {
+  const preload = document.querySelector(".preload");
+  preload.classList.add("preload-finish");
+});
 const realFileBtn = document.getElementById("real-file");
 const customBtn = document.getElementById("custom-button");
 const customBtn2 = document.getElementById("custom-button2");

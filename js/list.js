@@ -10,6 +10,10 @@ hambar.addEventListener("click", () => {
   });
 });
 // ---
+window.addEventListener("load", () => {
+  const preload = document.querySelector(".preload");
+  preload.classList.add("preload-finish");
+});
 $(".txtb").on("keyup", function (e) {
   if (e.keyCode == 13 && $(".txtb").val() != "") {
     var task = $("<div class='task'></div>").text($(".txtb").val());

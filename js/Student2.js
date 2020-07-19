@@ -10,6 +10,10 @@ hambar.addEventListener("click", () => {
   });
 });
 // ---
+window.addEventListener("load", () => {
+  const preload = document.querySelector(".preload");
+  preload.classList.add("preload-finish");
+});
 document.getElementById("total3").innerHTML = localStorage.getItem(
   "totalmarks10"
 );

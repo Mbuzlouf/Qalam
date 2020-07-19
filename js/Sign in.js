@@ -8,6 +8,11 @@ hambar.addEventListener("click", () => {
     link.classList.toggle("fade");
   });
 });
+// ----
+window.addEventListener("load", () => {
+  const preload = document.querySelector(".preload");
+  preload.classList.add("preload-finish");
+});
 // name localstorage
 function passname() {
   let name = document.getElementById("name").value;
